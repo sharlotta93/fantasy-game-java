@@ -1,8 +1,8 @@
-package FantasyGame.Rooms;
+package FantasyGame.Rooms.RoomItems;
 
 import java.util.ArrayList;
 
-public class Treasure implements IItem {
+public class Treasure implements IItem, IQuest {
 
     private ArrayList<TreasureType> treasures;
 

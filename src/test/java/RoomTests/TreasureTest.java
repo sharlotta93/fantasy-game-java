@@ -1,7 +1,7 @@
 package RoomTests;
 
-import FantasyGame.Rooms.Treasure;
-import FantasyGame.Rooms.TreasureType;
+import FantasyGame.Rooms.RoomItems.Treasure;
+import FantasyGame.Rooms.RoomItems.TreasureType;
 import org.junit.Before;
 import org.junit.Test;
 

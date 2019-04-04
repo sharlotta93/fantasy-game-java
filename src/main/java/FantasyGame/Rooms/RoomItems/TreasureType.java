@@ -1,4 +1,4 @@
-package FantasyGame.Rooms;
+package FantasyGame.Rooms.RoomItems;
 
 public enum TreasureType {
     GOLD(30),

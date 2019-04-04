@@ -17,5 +17,13 @@ package FantasyGame.Players;
         public int getHealthPoints() {
             return this.healthPoints;
         }
+
+        public void removeHealthPoint(int attackPoints) {
+            this.healthPoints -= attackPoints;
+        }
+
+        public void addHealthPoint(int newPoints) {
+            this.healthPoints += newPoints;
+        }
     }
 
