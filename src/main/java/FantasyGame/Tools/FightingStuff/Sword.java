@@ -1,13 +1,15 @@
 package FantasyGame.Tools.FightingStuff;
 
-public class Sword {
+public class Sword extends Weapon{
 
     private String name;
-    private int attackPoints;
-    private int protectionPoints;
 
-    public Sword(int attackPoints name) {
-        super(int 5; int 3);
+    public Sword(String name) {
+        super(5, 3);
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

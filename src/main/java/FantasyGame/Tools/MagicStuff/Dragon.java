@@ -1,4 +1,12 @@
 package FantasyGame.Tools.MagicStuff;
 
-public class Dragon {
+public class Dragon extends Magic implements ICreature{
+
+    public Dragon(String name) {
+        super(name, 20, 20);
+    }
+
+    public String makesNoise() {
+        return "ROOOAARRR";
+    }
 }

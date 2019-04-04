@@ -23,11 +23,11 @@ public class SwordTest {
 
     @Test
     public void hasAttackPoints() {
-        assertEquals(4, sword.getAttackPoints());
+        assertEquals(5, sword.getAttackPoints());
     }
 
     @Test
     public void hasProtectionPoints() {
-        assertEquals(2, sword.getProtectionPoints());
+        assertEquals(3, sword.getProtectionPoints());
     }
 }
