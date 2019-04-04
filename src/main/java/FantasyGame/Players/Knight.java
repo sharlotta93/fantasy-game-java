@@ -1,5 +1,6 @@
 package FantasyGame.Players;
 
+import FantasyGame.Rooms.RoomItems.Ogre;
 import FantasyGame.Tools.FightingStuff.*;
 
 import java.util.ArrayList;
@@ -42,4 +43,8 @@ public class Knight extends Player implements IFighter{
     public Weapon currentWeapon() {
         return currentWeapon;
     }
+
+    public void attack(Ogre ogre) {
+        ogre.removeHealthPoint(currentWeapon.getAttackPoints());
+    } //move to abstract class
 }

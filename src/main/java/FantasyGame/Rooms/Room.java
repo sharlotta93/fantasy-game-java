@@ -28,6 +28,10 @@ public abstract class Room {
         items.add((IItem) questType);
     }
 
+    public IItem getItem(int i) {
+        return this.items.get(i);
+    }
+
 
 
 }
