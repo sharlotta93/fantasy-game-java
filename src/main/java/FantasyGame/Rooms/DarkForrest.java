@@ -9,4 +9,5 @@ public class DarkForrest extends Room {
         super(treasure);
     }
 
+
 }

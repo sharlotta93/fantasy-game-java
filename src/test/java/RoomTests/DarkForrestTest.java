@@ -23,15 +23,15 @@ public class DarkForrestTest {
         ((Treasure) treasure).add(TreasureType.DIAMONDS);
         room = new DarkForrest(treasure);
     }
-//
-//    @Test
-//    public void hasQuestType() {
-//        assertEquals();
-//    }
+
+    @Test
+    public void hasQuest() {
+        assertEquals(1, room.totalItems());
+    }
 
     @Test
     public void canAddItem() {
         room.addItem(tree);
-        assertEquals(1, room.totalItems());
+        assertEquals(2, room.totalItems());
     }
 }

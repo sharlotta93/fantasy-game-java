@@ -1,13 +1,17 @@
 package FantasyGame.Players;
 
-    public abstract class Player {
+import FantasyGame.Rooms.RoomItems.Treasure;
+
+public abstract class Player {
 
         String name;
         int healthPoints;
+        int totalTreasure;
 
         public Player(String name) {
             this.name = name;
             this.healthPoints = 30;
+            this.totalTreasure = 0;
         }
 
         public String getName() {
@@ -25,5 +29,10 @@ package FantasyGame.Players;
         public void addHealthPoint(int newPoints) {
             this.healthPoints += newPoints;
         }
+
+        public void collectTreasure(Treasure treasure) {
+            this.totalTreasure += treasure.totalTreasureValue();
+        }
+
     }
 

@@ -13,6 +13,7 @@ public abstract class Room {
     public Room (IQuest questType) {
         items = new ArrayList();
         this.questType = questType;
+        addQuestToRoom();
     }
 
     public void addItem(IItem item) {
@@ -21,6 +22,10 @@ public abstract class Room {
 
     public int totalItems() {
         return items.size();
+    }
+
+    public void addQuestToRoom() {
+        items.add((IItem) questType);
     }
 
 
