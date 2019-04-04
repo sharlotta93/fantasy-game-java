@@ -1,4 +1,4 @@
-package FanstasyGame.Players;
+package FantasyGame.Players;
 
 public interface ICleric {
 }

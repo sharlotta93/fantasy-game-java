@@ -1,4 +1,4 @@
-package FanstasyGame;
+package FantasyGame;
 
 public class FantasyGame {
 }
