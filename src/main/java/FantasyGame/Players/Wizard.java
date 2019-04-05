@@ -26,14 +26,14 @@ public class Wizard extends Player implements IMagic{
         magicSpells.add(newSpell);
     }
 
-    public ISpell choseSpell(ISpell wantedSpell) {
+    public int attackWithSpell(ISpell wantedSpell) {
         ISpell mySpell = null;
         int spellIndex = magicSpells.indexOf(wantedSpell);
         if (spellIndex != -1) {
             mySpell = wantedSpell;
             magicSpells.remove(wantedSpell);
         }
-        return mySpell;
+        return ((Magic)mySpell).getAttackPoints();
     }
 
     public void changeCreature(ICreature newCreature) {
@@ -44,7 +44,8 @@ public class Wizard extends Player implements IMagic{
         return ((Magic) creature).getName();
     }
 
-    public void attackWithCreature(Enemy enemy) {
-        enemy.removeHealthPoint(((Magic)creature).getAttackPoints());
+    public int attack() {
+       return ((Magic)creature).getAttackPoints();
     }
+
 }

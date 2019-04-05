@@ -45,4 +45,8 @@ public class Knight extends Player implements IFighter{
         return currentWeapon;
     }
 
+    public int attack() {
+        return currentWeapon.getAttackPoints();
+    }
+
 }

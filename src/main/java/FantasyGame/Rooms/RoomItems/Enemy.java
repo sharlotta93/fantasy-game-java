@@ -2,7 +2,7 @@ package FantasyGame.Rooms.RoomItems;
 
 import FantasyGame.Players.Knight;
 
-public abstract class Enemy implements IItem, IQuest {
+public abstract class Enemy implements IQuest {
 
     private String name;
     private int healthPoints;
@@ -22,16 +22,18 @@ public abstract class Enemy implements IItem, IQuest {
         return healthPoints;
     }
 
-    public int getAttackPoints() {
-        return attackPoints;
-    }
+//    public int getAttackPoints() {
+//        return attackPoints;
+//    }
 
     public void removeHealthPoint(int attackPoints) {
         this.healthPoints -= attackPoints;
     }
 
-    public boolean isTreasure() {
-        return false;
+    public boolean isTreasure() {return false;}
+
+    public int attack() {
+        return attackPoints;
     }
 
 }

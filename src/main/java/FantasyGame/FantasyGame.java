@@ -1,9 +1,6 @@
 package FantasyGame;
 
-import FantasyGame.Rooms.RoomItems.IItem;
 import FantasyGame.Rooms.RoomItems.IQuest;
-import FantasyGame.Rooms.RoomItems.Ogre;
-import FantasyGame.Tools.FightingStuff.*;
 import FantasyGame.Players.*;
 import FantasyGame.Rooms.*;
 import FantasyGame.Rooms.RoomItems.Enemy;
@@ -34,34 +31,25 @@ public class FantasyGame {
         for (int i=0 ; i < rooms.size() ; i++) {
             Room room = rooms.get(i);
 
-            for (int j = 0; j < room.totalItems(); j++) {
-                IItem item = room.getItem(j);
-                if (((IQuest) item).isTreasure()) {
-                    player.collectTreasure(item);
-                } else if (!((IQuest) item).isTreasure()) {
-                    if (battle(player, (Enemy) item)) {
+                if (room.questType()) {
+                    player.collectTreasure(room.treasure());
+                } else if (!room.questType()) {
+                    if (battle(player, room.getEnemy() )) {
                         System.out.println("Player Won");
                     } else {
                         System.out.println("Enemy Won");
-                    }
+                    } //add attack function to all the players
                 }
-            }
         }
     }
 
-    public boolean battle(Player knight, Enemy enemy) {
-        Knight player = ((Knight)knight);
+    public boolean battle(Player player, Enemy enemy) {
 
-        int playerAttackPoints = player.currentWeapon().getAttackPoints();
-        int enemyAttackPoints = enemy.getAttackPoints();
-        System.out.println(enemyAttackPoints);
-        System.out.println(playerAttackPoints);
-
-        if (player.currentWeapon().getAttackPoints() > enemyAttackPoints) {
-            enemy.removeHealthPoint(playerAttackPoints);
+        if (player.attack() > enemy.attack()) {
+            enemy.removeHealthPoint(player.attack());
             return true;
         } else {
-            player.removeHealthPoint(enemyAttackPoints);
+            player.removeHealthPoint(enemy.attack());
             return false;
         }
     }

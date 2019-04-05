@@ -2,7 +2,7 @@ package FantasyGame.Rooms.RoomItems;
 
 import java.util.ArrayList;
 
-public class Treasure implements IItem, IQuest {
+public class Treasure implements IQuest {
 
     private ArrayList<TreasureType> treasures;
 

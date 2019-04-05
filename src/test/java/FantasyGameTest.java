@@ -14,15 +14,11 @@ public class FantasyGameTest {
     Player player;
     Room room;
     Sword weapon;
-    IItem tree;
-    IItem bush;
     Enemy enemy;
     Treasure treasure;
 
     @Before
     public void before() {
-        tree = new Tree();
-        bush = new Bush();
         weapon = new Sword("Needle");
 
         enemy = new Ogre("Jason", 4);
@@ -35,12 +31,8 @@ public class FantasyGameTest {
         treasure.add(TreasureType.DIAMONDS);
 
         room = new DarkForrest(treasure);
-//        room.addItem(tree);
-//        room.addItem(bush);
 
         Room room2 = new CaveOfWonders(enemy);
-//        room2.addItem(tree);
-//        room2.addItem(bush);
 
         game = new FantasyGame();
         game.addRoom(room);

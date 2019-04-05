@@ -28,4 +28,8 @@ public class Cleric extends Player implements ICleric {
     public int totalHealingTools() {
             return this.healingTools.size();
     }
+
+    public int attack() {
+            return 0;
+    }
 }

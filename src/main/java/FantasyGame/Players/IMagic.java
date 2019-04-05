@@ -5,6 +5,6 @@ import FantasyGame.Tools.MagicStuff.ISpell;
 
 public interface IMagic {
 
-    ISpell choseSpell(ISpell wantedSpell);
+    int attackWithSpell(ISpell wantedSpell);
     void changeCreature(ICreature newCreature);
 }

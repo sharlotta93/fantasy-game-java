@@ -29,7 +29,7 @@ public class OgreTests {
 
     @Test
     public void hasAttackPoint() {
-        assertEquals(10, ogre.getAttackPoints());
+        assertEquals(10, ogre.attack());
     }
 
     @Test

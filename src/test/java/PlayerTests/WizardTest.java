@@ -45,15 +45,6 @@ public class WizardTest {
     }
 
     @Test
-    public void canChooseSpell() {
-        ISpell newSpell= new FireBall("Freeze");
-        wizard.addMagicSpell(spell);
-        wizard.addMagicSpell(newSpell);
-        ISpell spellName = wizard.choseSpell(spell);
-        assertEquals("FireBall", ((Magic) spellName).getName());
-    }
-
-    @Test
     public void creatureHasName() {
         assertEquals("Bobby", wizard.getCreaturesName());
     }
@@ -63,6 +54,11 @@ public class WizardTest {
         ICreature newCreature = new Dragon("Frodo");
         wizard.changeCreature(newCreature);
         assertEquals("Frodo", wizard.getCreaturesName());
+    }
 
+    @Test
+    public void canAttackWithSpell() {
+        wizard.addMagicSpell(spell);
+        assertEquals(2, wizard.attackWithSpell(spell));
     }
 }
