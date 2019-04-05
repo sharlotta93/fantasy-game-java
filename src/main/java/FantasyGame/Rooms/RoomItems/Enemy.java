@@ -22,10 +22,6 @@ public abstract class Enemy implements IQuest {
         return healthPoints;
     }
 
-//    public int getAttackPoints() {
-//        return attackPoints;
-//    }
-
     public void removeHealthPoint(int attackPoints) {
         this.healthPoints -= attackPoints;
     }

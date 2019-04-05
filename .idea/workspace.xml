@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a151e6-6ee1-4eac-8092-ba1aff31fbe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/FantasyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/FantasyGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/Players/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Bush.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Cave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/IItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Treasure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Treasure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FantasyGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/FantasyGameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/RoomTests/DarkForrestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/RoomTests/DarkForrestTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/IFighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/IFighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/IMagic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/IMagic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Bush.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Cave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/IItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Treasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/ISpell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTests/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTests/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTests/DarkForrestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTests/DarkForrestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTests/OgreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTests/OgreTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,27 +30,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="183" />
+          <entry key="java" value="186" />
           <entry key="kt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="183" />
+          <entry key="JAVA" value="186" />
           <entry key="Kotlin" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="9322" />
+          <entry key="java" value="9470" />
           <entry key="kt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9322" />
+          <entry key="JAVA" value="9470" />
           <entry key="Kotlin" value="103" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
@@ -91,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="47">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
@@ -103,6 +74,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/Dragon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
@@ -515,7 +523,6 @@
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/Magic.java" />
         <option value="$PROJECT_DIR$/src/test/java/ToolTests/DragonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ToolTests/FireBallTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Treasure.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoomTests/DarkForrestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/Room.java" />
@@ -530,8 +537,9 @@
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/ISpell.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FireBall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" />
       </list>
     </option>
   </component>
@@ -694,7 +702,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554472702525" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554473275878" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -806,9 +814,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.05 at 13h 23m 03s.xml">
-      <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.05 at 13h 27m 56s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
@@ -834,6 +839,9 @@
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.05 at 14h 55m 59s.xml">
+      <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.05 at 14h 58m 25s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1069,17 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/Dragon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/IItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1202,16 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1298,22 +1285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="47">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#649#650#0" expanded="true" />
@@ -1326,6 +1301,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/Dragon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

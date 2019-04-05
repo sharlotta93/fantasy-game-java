@@ -38,7 +38,7 @@ public class FantasyGame {
                         System.out.println("Player Won");
                     } else {
                         System.out.println("Enemy Won");
-                    } //add attack function to all the players
+                    }
                 }
         }
     }
