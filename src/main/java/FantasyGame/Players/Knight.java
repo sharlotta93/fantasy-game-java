@@ -1,5 +1,6 @@
 package FantasyGame.Players;
 
+import FantasyGame.Rooms.RoomItems.Enemy;
 import FantasyGame.Rooms.RoomItems.Ogre;
 import FantasyGame.Tools.FightingStuff.*;
 
@@ -44,7 +45,4 @@ public class Knight extends Player implements IFighter{
         return currentWeapon;
     }
 
-    public void attack(Ogre ogre) {
-        ogre.removeHealthPoint(currentWeapon.getAttackPoints());
-    } //move to abstract class
 }

@@ -1,12 +1,15 @@
 package PlayerTests;
 
 import FantasyGame.Players.Knight;
+import FantasyGame.Rooms.RoomItems.Enemy;
+import FantasyGame.Rooms.RoomItems.Ogre;
 import FantasyGame.Tools.FightingStuff.Sword;
 import FantasyGame.Tools.FightingStuff.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
 
 public class KnightTest {
@@ -55,4 +58,5 @@ public class KnightTest {
     public void cannotChooseHealingTool() {
         assertNull(knight.currentWeapon());
     }
+
 }

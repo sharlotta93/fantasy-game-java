@@ -3,6 +3,6 @@ package FantasyGame.Tools.FightingStuff;
 public class Sword extends Weapon{
 
     public Sword(String name) {
-        super(name,5, 3);
+        super(name,5);
     }
 }

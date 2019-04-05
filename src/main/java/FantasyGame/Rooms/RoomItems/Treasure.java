@@ -23,4 +23,8 @@ public class Treasure implements IItem, IQuest {
         return totalValue;
     }
 
+    public boolean isTreasure() {
+        return true;
+    }
+
 }

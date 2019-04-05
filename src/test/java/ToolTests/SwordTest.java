@@ -26,8 +26,4 @@ public class SwordTest {
         assertEquals(5, sword.getAttackPoints());
     }
 
-    @Test
-    public void hasProtectionPoints() {
-        assertEquals(3, sword.getProtectionPoints());
-    }
 }

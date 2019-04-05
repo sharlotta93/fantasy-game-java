@@ -26,8 +26,4 @@ public class DragonTest {
         assertEquals(20, dragon.getAttackPoints());
     }
 
-    @Test
-    public void hasProtectionPoints() {
-        assertEquals(20, dragon.getProtectionPoints());
-    }
 }

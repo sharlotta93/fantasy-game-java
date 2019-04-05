@@ -25,8 +25,4 @@ public class FireBallTest {
         assertEquals(2, fireBall.getAttackPoints());
     }
 
-    @Test
-    public void hasProtectionPoints() {
-        assertEquals(2, fireBall.getProtectionPoints());
-    }
 }

@@ -1,5 +1,6 @@
 package FantasyGame.Players;
 
+import FantasyGame.Rooms.RoomItems.IItem;
 import FantasyGame.Rooms.RoomItems.Treasure;
 
 public abstract class Player {
@@ -30,8 +31,12 @@ public abstract class Player {
             this.healthPoints += newPoints;
         }
 
-        public void collectTreasure(Treasure treasure) {
-            this.totalTreasure += treasure.totalTreasureValue();
+        public void collectTreasure(IItem treasure) {
+            this.totalTreasure += ((Treasure) treasure).totalTreasureValue();
+        }
+
+        public int getTotalTreasure() {
+            return totalTreasure;
         }
 
     }

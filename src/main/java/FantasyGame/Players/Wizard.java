@@ -1,5 +1,6 @@
 package FantasyGame.Players;
 
+import FantasyGame.Rooms.RoomItems.Enemy;
 import FantasyGame.Tools.MagicStuff.ICreature;
 import FantasyGame.Tools.MagicStuff.ISpell;
 import FantasyGame.Tools.MagicStuff.Magic;
@@ -43,5 +44,7 @@ public class Wizard extends Player implements IMagic{
         return ((Magic) creature).getName();
     }
 
-
+    public void attackWithCreature(Enemy enemy) {
+        enemy.removeHealthPoint(((Magic)creature).getAttackPoints());
+    }
 }

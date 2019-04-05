@@ -1,5 +1,7 @@
 package RoomTests;
 
+import FantasyGame.Players.Knight;
+import FantasyGame.Players.Player;
 import FantasyGame.Rooms.RoomItems.Ogre;
 import org.junit.Before;
 import org.junit.Test;
@@ -35,5 +37,6 @@ public class OgreTests {
         ogre.removeHealthPoint(5);
         assertEquals(10, ogre.getHealthPoints());
     }
+
 }
 

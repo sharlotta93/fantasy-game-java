@@ -4,12 +4,10 @@ public abstract class Magic {
 
     private String name;
     private int attackPoints;
-    private int protectionPoints;
 
-    public Magic(String name, int attackPoints, int protectionPoints) {
+    public Magic(String name, int attackPoints) {
         this.name = name;
         this.attackPoints = attackPoints;
-        this.protectionPoints = protectionPoints;
     }
 
     public String getName() {
@@ -20,8 +18,5 @@ public abstract class Magic {
         return attackPoints;
     }
 
-    public int getProtectionPoints() {
-        return protectionPoints;
-    }
 
 }
