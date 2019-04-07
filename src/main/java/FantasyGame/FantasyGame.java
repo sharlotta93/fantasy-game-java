@@ -1,6 +1,5 @@
 package FantasyGame;
 
-import FantasyGame.Rooms.RoomItems.IQuest;
 import FantasyGame.Players.*;
 import FantasyGame.Rooms.*;
 import FantasyGame.Rooms.RoomItems.Enemy;
@@ -79,7 +78,7 @@ public class FantasyGame {
         if (player.attack() > player2attack) {
             player2.removeHealthPoint(player.attack());
             return player.getName();
-            
+
         } else {
             player.removeHealthPoint(player2attack);
             return player2.getName();
