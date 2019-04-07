@@ -25,7 +25,7 @@ public class FantasyGame {
         players.add(player);
     }
 
-    public void startTheGame() {
+    public void startQuest() {
         Player player = players.remove(0);
 
         for (int i=0 ; i < rooms.size() ; i++) {

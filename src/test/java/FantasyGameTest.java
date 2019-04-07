@@ -22,7 +22,7 @@ public class FantasyGameTest {
     Enemy enemy;
     Treasure treasure;
     ICreature dragon;
-//    ISpell spell;
+    ISpell spell;
 
     @Before
     public void before() {
@@ -35,8 +35,8 @@ public class FantasyGameTest {
 
         dragon = new Dragon("Bagbie");
         player2 = new Wizard("Gandalf", dragon);
-//        spell = new FireBall("Baam");
-//        ((Wizard)player2).addMagicSpell(spell);
+        spell = new FireBall("Baam");
+        ((Wizard)player2).addMagicSpell(spell);
 
         treasure = new Treasure();
         treasure.add(TreasureType.COINS);
@@ -55,7 +55,7 @@ public class FantasyGameTest {
     @Test
     public void canPlayGameKnight() {
         game.addPlayer(player);
-        game.startTheGame();
+        game.startQuest();
         assertEquals(30, player.getTotalTreasure());
         assertEquals(30, player.getHealthPoints());
         assertEquals(10, enemy.getHealthPoints());
@@ -64,10 +64,11 @@ public class FantasyGameTest {
     @Test
     public void canPlayGameWizard() {
         game.addPlayer(player2);
-        game.startTheGame();
+        game.startQuest();
         assertEquals(30, player2.getTotalTreasure());
         assertEquals(30, player2.getHealthPoints());
-        assertEquals(-5, enemy.getHealthPoints());
+        assertEquals(0, enemy.getHealthPoints());
+        assertEquals(false, enemy.checkAliveStatus());
     }
 
 }

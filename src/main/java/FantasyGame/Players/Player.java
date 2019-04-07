@@ -1,30 +1,15 @@
 package FantasyGame.Players;
 
-import FantasyGame.Rooms.RoomItems.IQuest;
-import FantasyGame.Rooms.RoomItems.Treasure;
+import FantasyGame.GameCharacter;
 
-public abstract class Player {
+public abstract class Player extends GameCharacter {
 
-        String name;
-        int healthPoints;
-        int totalTreasure;
+       private int totalTreasure;
+       private int healthPoints;
 
         public Player(String name) {
-            this.name = name;
-            this.healthPoints = 30;
+            super(name, 30);
             this.totalTreasure = 0;
-        }
-
-        public String getName() {
-            return this.name;
-        }
-
-        public int getHealthPoints() {
-            return this.healthPoints;
-        }
-
-        public void removeHealthPoint(int attackPoints) {
-            this.healthPoints -= attackPoints;
         }
 
         public void addHealthPoint(int newPoints) {
@@ -38,8 +23,6 @@ public abstract class Player {
         public int getTotalTreasure() {
             return totalTreasure;
         }
-
-        public abstract int attack();
 
     }
 
