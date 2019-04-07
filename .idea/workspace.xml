@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a151e6-6ee1-4eac-8092-ba1aff31fbe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/FantasyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/FantasyGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FantasyGame/Rooms/RoomItems/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FantasyGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/FantasyGameTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,27 +30,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="193" />
+          <entry key="java" value="199" />
           <entry key="kt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="193" />
+          <entry key="JAVA" value="199" />
           <entry key="Kotlin" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="9874" />
+          <entry key="java" value="10891" />
           <entry key="kt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9874" />
+          <entry key="JAVA" value="10891" />
           <entry key="Kotlin" value="103" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
@@ -68,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="141">
+              <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
@@ -79,51 +73,54 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FireBall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FreezeBlast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="348">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/GameCharacter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -495,8 +492,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/Spell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/ICreature.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Players/ICleric.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTests/ClericTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/ClericalStuff/HealingStuff.java" />
@@ -541,10 +536,12 @@
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/ISpell.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FireBall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/FightingStuff/Axe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FreezeBlast.java" />
         <option value="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" />
       </list>
     </option>
@@ -604,6 +601,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="FantasyGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Players" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fantasy-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fantasy-game" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FantasyGame" type="462c0819:PsiDirectoryNode" />
               <item name="Tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -614,7 +620,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="FantasyGame" type="462c0819:PsiDirectoryNode" />
               <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="ClericalStuff" type="462c0819:PsiDirectoryNode" />
+              <item name="FightingStuff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fantasy-game" type="b2602c69:ProjectViewProjectNode" />
@@ -670,7 +676,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554635165062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554638162393" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -782,34 +788,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.05 at 15h 06m 29s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 29m 17s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.05 at 15h 07m 58s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 30m 08s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 11h 39m 40s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 41m 45s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 11h 39m 56s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 45m 40s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 11h 43m 29s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 49m 33s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 11h 44m 06s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 50m 01s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 11h 44m 38s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 51m 35s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 11h 51m 56s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 52m 42s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 01m 25s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 53m 23s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 04m 02s.xml">
+    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 53m 31s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1003,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/FightingStuff/Sword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ToolTests/SwordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1142,16 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/IMagic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/Magic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1165,17 +1154,6 @@
           <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FireBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1201,28 +1179,6 @@
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1272,7 +1228,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#739#740#0" expanded="true" />
             <element signature="e#774#775#0" expanded="true" />
@@ -1280,17 +1236,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/IMagic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/GameCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="-12">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#741#742#0" expanded="true" />
@@ -1300,10 +1266,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/FightingStuff/Axe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/FightingStuff/Sword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FireBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FreezeBlast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/Players/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="348">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
