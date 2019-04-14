@@ -93,7 +93,7 @@ public class FantasyGameTest {
     @Test
     public void canDuelFighterAndWizard() {
 
-        String winnerIs = game.duel(player, player2, spell);
+        String winnerIs = game.duel(((IFighter)player), ((IMagic)player2), spell);
         assertEquals("Wally The Great", winnerIs);
         assertEquals(25, player2.getHealthPoints());
         assertEquals(30, player.getHealthPoints());

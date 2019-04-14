@@ -68,26 +68,27 @@ public class FantasyGame {
         }
     }
 
-    public String duel(Player player, Player player2, ISpell spell) {
-        int player2attack = ((Wizard)player2).attackWithSpell(spell);
+    public String duel(IFighter player, IMagic player2, ISpell spell) {
+        int player2attack = player2.attackWithSpell(spell);
+        Player knight = ((Player)player);
 
-        if (player.attack() == player2attack) {
+        if (knight.attack() == player2attack) {
             return "It's a draw";
         }
 
-        if (player.attack() > player2attack) {
-            player2.removeHealthPoint(player.attack());
-            return player.getName();
+        if (knight.attack() > player2attack) {
+            ((Player)player2).removeHealthPoint(player.attack());
+            return knight.getName();
 
         } else {
-            player.removeHealthPoint(player2attack);
-            return player2.getName();
+            knight.removeHealthPoint(player2attack);
+            return ((Player)player2).getName();
         }
     }
 
     public String duel(IMagic player1, ISpell spell1, IMagic player2, ISpell spell2) {
-        int wizard1Attack = ((Wizard)player1).attackWithSpell(spell1);
-        int wizard2Attack = ((Wizard)player2).attackWithSpell(spell2);
+        int wizard1Attack = player1.attackWithSpell(spell1);
+        int wizard2Attack = player2.attackWithSpell(spell2);
 
         Player wizard1 = (Player)player1;
         Player wizard2 = (Player)player2;

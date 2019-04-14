@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a151e6-6ee1-4eac-8092-ba1aff31fbe9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.codeclan.lab.fantasy-game.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.codeclan.lab.fantasy-game.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" afterDir="false" />
     </list>
@@ -51,13 +47,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="11213" />
+          <entry key="java" value="11291" />
           <entry key="kt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11213" />
+          <entry key="JAVA" value="11291" />
           <entry key="Kotlin" value="103" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
@@ -66,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="88" column="33" lean-forward="true" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+            <state relative-caret-position="269">
+              <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+            <state relative-caret-position="258">
+              <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -531,8 +527,8 @@
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Rooms/RoomItems/Enemy.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/FightingStuff/Axe.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/Tools/MagicStuff/FreezeBlast.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FantasyGameTest.java" />
       </list>
     </option>
   </component>
@@ -632,7 +628,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555271675465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555272084118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -739,9 +735,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 49m 33s.xml">
-      <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_codeclan_lab_fantasy-game_test - 2019.04.07 at 12h 50m 01s.xml">
       <configuration name="All in com.codeclan.lab.fantasy-game.test" configurationId="JUnit" />
     </history-entry>
@@ -769,12 +762,15 @@
     <history-entry file="FantasyGameTest - 2019.04.14 at 20h 48m 29s.xml">
       <configuration name="FantasyGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FantasyGameTest - 2019.04.14 at 20h 54m 37s.xml">
+      <configuration name="FantasyGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -783,7 +779,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1129,20 +1125,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="108" column="45" lean-forward="true" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+        <state relative-caret-position="269">
+          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FantasyGame/FantasyGame.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FantasyGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="88" column="33" lean-forward="true" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        <state relative-caret-position="258">
+          <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
