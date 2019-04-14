@@ -75,7 +75,7 @@ public class FantasyGameTest {
         ((Knight) player2).addWeapon(axe);
         ((Knight) player2).choseWeapon(axe);
 
-        String winnerIs = game.knightDuel(player, player2);
+        String winnerIs = game.duel(player, player2);
         assertEquals("Wally The Great", winnerIs);
         assertEquals(25, player2.getHealthPoints());
         assertEquals(30, player.getHealthPoints());
@@ -84,7 +84,7 @@ public class FantasyGameTest {
     @Test
     public void canDuelTwoFightersItsADraw() {
 
-        String winnerIs = game.knightDuel(player, player);
+        String winnerIs = game.duel(player, player);
         assertEquals("It's a draw", winnerIs);
         assertEquals(30, player2.getHealthPoints());
         assertEquals(30, player.getHealthPoints());
@@ -93,7 +93,7 @@ public class FantasyGameTest {
     @Test
     public void canDuelFighterAndWizard() {
 
-        String winnerIs = game.mixDuel(player, player2, spell);
+        String winnerIs = game.duel(player, player2, spell);
         assertEquals("Wally The Great", winnerIs);
         assertEquals(25, player2.getHealthPoints());
         assertEquals(30, player.getHealthPoints());
@@ -103,25 +103,25 @@ public class FantasyGameTest {
     public void canDuelWizardsDraw() {
         ISpell newSpell = new FireBall("FreeBall");
 
-        Player player3 = new Wizard("Harry", dragon);
+        IMagic player3 = new Wizard("Harry", dragon);
         ((Wizard)player3).addMagicSpell(newSpell);
 
-        String winnerIs = game.wizardDuel(player2, spell, player3, newSpell);
+        String winnerIs = game.duel(((IMagic)player2), spell, player3, newSpell);
         assertEquals("It's a draw", winnerIs);
         assertEquals(30, player2.getHealthPoints());
-        assertEquals(30, player3.getHealthPoints());
+        assertEquals(30, ((Player)player3).getHealthPoints());
     }
 
     @Test
     public void canDuelWizards() {
         ISpell newSpell = new FreezeBlast("Blast");
 
-        Player player3 = new Wizard("Harry", dragon);
+        IMagic player3 = new Wizard("Harry", dragon);
         ((Wizard)player3).addMagicSpell(newSpell);
 
-        String winnerIs = game.wizardDuel(player2, spell, player3, newSpell);
+        String winnerIs = game.duel(((IMagic)player2), spell, player3, newSpell);
         assertEquals("Harry", winnerIs);
-        assertEquals(30, player3.getHealthPoints());
+        assertEquals(30, ((Player)player3).getHealthPoints());
         assertEquals(26, player2.getHealthPoints());
     }
 

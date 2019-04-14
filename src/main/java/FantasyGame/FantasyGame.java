@@ -54,7 +54,7 @@ public class FantasyGame {
         }
     }
 
-    public String knightDuel(Player player, Player player2) {
+    public String duel(Player player, Player player2) {
         if (player.attack() == player2.attack()) {
             return "It's a draw";
         }
@@ -68,7 +68,7 @@ public class FantasyGame {
         }
     }
 
-    public String mixDuel(Player player, Player player2, ISpell spell) {
+    public String duel(Player player, Player player2, ISpell spell) {
         int player2attack = ((Wizard)player2).attackWithSpell(spell);
 
         if (player.attack() == player2attack) {
@@ -85,28 +85,30 @@ public class FantasyGame {
         }
     }
 
-    public String wizardDuel(Player player1, ISpell spell1, Player player2, ISpell spell2) {
-        int player1SpellAttack = ((Wizard)player1).attackWithSpell(spell1);
-        int player2SpellAttack = ((Wizard)player2).attackWithSpell(spell2);
+    public String duel(IMagic player1, ISpell spell1, IMagic player2, ISpell spell2) {
+        int wizard1Attack = ((Wizard)player1).attackWithSpell(spell1);
+        int wizard2Attack = ((Wizard)player2).attackWithSpell(spell2);
 
+        Player wizard1 = (Player)player1;
+        Player wizard2 = (Player)player2;
 
-        if (player1SpellAttack > player2SpellAttack) {
-            player2.removeHealthPoint(player1SpellAttack);
-            return player1.getName();
+        if (wizard1Attack > wizard2Attack) {
+            wizard2.removeHealthPoint(wizard1Attack);
+            return wizard1.getName();
 
-        } else if (player1SpellAttack < player2SpellAttack) {
-            player1.removeHealthPoint(player2SpellAttack);
-            return player2.getName();
+        } else if (wizard1Attack < wizard2Attack) {
+            wizard1.removeHealthPoint(wizard2Attack);
+            return wizard2.getName();
 
         } else {
 
-            if (player1.attack() > player2.attack()) { //in case of a draw fight with creatures
-                player2.removeHealthPoint(player1.attack());
-                return player1.getName();
+            if (wizard1.attack() > wizard2.attack()) { //in case of a draw fight with creatures
+                wizard2.removeHealthPoint(wizard1.attack());
+                return wizard1.getName();
 
-            } else if ((player1.attack() < player2.attack())) {
-                player1.removeHealthPoint(player2.attack());
-                return player2.getName();
+            } else if ((wizard1.attack() < wizard2.attack())) {
+                wizard1.removeHealthPoint(wizard2.attack());
+                return wizard2.getName();
 
             } else {
                 return "It's a draw";
